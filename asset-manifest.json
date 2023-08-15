@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/parents-together/static/css/main.7d40bf6a.css",
-    "main.js": "/parents-together/static/js/main.b427d15a.js",
+    "main.css": "/parents-together/static/css/main.5dd7ef4d.css",
+    "main.js": "/parents-together/static/js/main.98591774.js",
     "index.html": "/parents-together/index.html",
-    "main.7d40bf6a.css.map": "/parents-together/static/css/main.7d40bf6a.css.map",
-    "main.b427d15a.js.map": "/parents-together/static/js/main.b427d15a.js.map"
+    "main.5dd7ef4d.css.map": "/parents-together/static/css/main.5dd7ef4d.css.map",
+    "main.98591774.js.map": "/parents-together/static/js/main.98591774.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d40bf6a.css",
-    "static/js/main.b427d15a.js"
+    "static/css/main.5dd7ef4d.css",
+    "static/js/main.98591774.js"
   ]
 }
