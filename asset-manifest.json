@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/parents-together/static/css/main.7d40bf6a.css",
+    "main.js": "/parents-together/static/js/main.b427d15a.js",
+    "index.html": "/parents-together/index.html",
+    "main.7d40bf6a.css.map": "/parents-together/static/css/main.7d40bf6a.css.map",
+    "main.b427d15a.js.map": "/parents-together/static/js/main.b427d15a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d40bf6a.css",
+    "static/js/main.b427d15a.js"
+  ]
+}
