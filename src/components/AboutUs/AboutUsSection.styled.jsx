@@ -32,7 +32,7 @@ export const AboutUsTopWrapper = styled.div`
   }
 `;
 
-export const AboutUsTitle = styled.h2`
+export const SectionTitle = styled.h2`
   margin-bottom: 20px;
 
   font-size: 44px;

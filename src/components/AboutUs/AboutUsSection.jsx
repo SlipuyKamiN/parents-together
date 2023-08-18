@@ -1,6 +1,6 @@
 import { Container } from 'components/Global/Container.styled';
 import {
-  AboutUsTitle,
+  SectionTitle,
   AboutUsTopWrapper,
   BenefitItem,
   BenefitsList,
@@ -44,7 +44,7 @@ const AboutUsSection = () => {
       <Container>
         <AboutUsTopWrapper>
           <div>
-            <AboutUsTitle>Що таке "Батьки разом"?</AboutUsTitle>
+            <SectionTitle>Що таке "Батьки разом"?</SectionTitle>
             <p>
               "Батьки разом" - це ідея об'єднатися разом для того, щоб
               підтримати один одного у процесі підготовки дітей до початкової
