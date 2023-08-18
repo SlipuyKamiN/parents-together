@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/parents-together/static/css/main.7db27abb.css",
-    "main.js": "/parents-together/static/js/main.a5f303f6.js",
+    "main.js": "/parents-together/static/js/main.96e15f13.js",
     "static/media/hero-background@2x.png": "/parents-together/static/media/hero-background@2x.8e76a451fc5a7c7c8717.png",
     "static/media/hero-background.png": "/parents-together/static/media/hero-background.0070456b80e04e63c9e3.png",
     "static/media/parents-rounded-1.png": "/parents-together/static/media/parents-rounded-1.b5c4bd2adb306eb689ef.png",
     "static/media/parents-rounded-2.png": "/parents-together/static/media/parents-rounded-2.144853240c9eb3d90f8d.png",
+    "static/media/about-us-background.png": "/parents-together/static/media/about-us-background.02f07ec5fe87e440215c.png",
     "index.html": "/parents-together/index.html",
     "main.7db27abb.css.map": "/parents-together/static/css/main.7db27abb.css.map",
-    "main.a5f303f6.js.map": "/parents-together/static/js/main.a5f303f6.js.map"
+    "main.96e15f13.js.map": "/parents-together/static/js/main.96e15f13.js.map"
   },
   "entrypoints": [
     "static/css/main.7db27abb.css",
-    "static/js/main.a5f303f6.js"
+    "static/js/main.96e15f13.js"
   ]
 }
