@@ -1,6 +1,5 @@
 import AboutUsSection from 'components/AboutUs/AboutUsSection';
 import Footer from 'components/Footer/Footer';
-import { Container } from 'components/Global/Container.styled';
 import Header from 'components/Header/Header';
 import Hero from 'components/Hero/HeroSection';
 import JoinUsSection from 'components/JoinUs/JoinUsSection';
@@ -10,21 +9,15 @@ import WhyWeSection from 'components/WhyWe/WhyWeSection';
 const App = () => {
   return (
     <div>
-      <Container>
-        <Header />
-      </Container>
+      <Header />
       <main>
-        <Container>
-          <Hero />
-          <AboutUsSection />
-          <WhyWeSection />
-          <Testimonials />
-          <JoinUsSection />
-        </Container>
+        <Hero />
+        <AboutUsSection />
+        <WhyWeSection />
+        <Testimonials />
+        <JoinUsSection />
       </main>
-      <Container>
-        <Footer />
-      </Container>
+      <Footer />
     </div>
   );
 };

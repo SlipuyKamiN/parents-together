@@ -3,8 +3,6 @@ import { FaArrowRight } from 'react-icons/fa';
 import { colors } from 'styles/common/vars';
 
 export const Button = styled.button`
-  width: 351px;
-
   margin: 0;
   padding: 0;
 
