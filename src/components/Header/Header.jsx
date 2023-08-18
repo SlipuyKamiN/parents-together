@@ -1,24 +1,49 @@
+import PageLogo from 'components/Global/PageLogo';
+import {
+  ArrowIcon,
+  DropMenuButton,
+  HeaderAnchorLink,
+  HeaderNavList,
+  LogoWrapper,
+  NavLink,
+  PageHeader,
+} from './Header.styled';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { useState } from 'react';
+
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(prevState => !prevState);
+  };
+
   return (
-    <header>
-      <a href="/">
-        <span>Батьки</span> разом
-      </a>
+    <PageHeader className={isMenuOpen ? 'is-open' : ''}>
+      <LogoWrapper>
+        <PageLogo />
+        <DropMenuButton type="button" onClick={toggleMenu}>
+          <GiHamburgerMenu size={24} />
+        </DropMenuButton>
+      </LogoWrapper>
       <nav>
-        <ul>
+        <HeaderNavList>
           <li>
-            <a href="/">Про нас</a>
+            <NavLink href="/">Про нас</NavLink>
           </li>
           <li>
-            <a href="/">Як це працює</a>
+            <NavLink href="/">Як це працює</NavLink>
           </li>
           <li>
-            <a href="/">Користувачам</a>
+            <NavLink href="/">Користувачам</NavLink>
           </li>
-        </ul>
+        </HeaderNavList>
       </nav>
-      <button type="button">Зв'язатись з нами</button>
-    </header>
+      <HeaderAnchorLink href="#address">
+        <span>Зв'язатись з нами</span>
+        <ArrowIcon />
+      </HeaderAnchorLink>
+    </PageHeader>
   );
 };
 

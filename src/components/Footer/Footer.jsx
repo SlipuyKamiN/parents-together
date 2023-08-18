@@ -34,7 +34,7 @@ const Footer = () => {
         </a>
         <p>створімо спільні ініціативи для наших дітей!</p>
       </div>
-      <address>
+      <address id="address">
         <h3>Контакти</h3>
         <ul>
           <li>
