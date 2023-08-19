@@ -4,7 +4,6 @@ import { colors } from 'styles/common/vars';
 
 export const Section = styled.section`
   margin-top: -160px;
-  padding: 0 5px;
 
   background-image: url(${aboutUsBgImage});
   background-size: cover;
@@ -12,7 +11,7 @@ export const Section = styled.section`
   background-repeat: no-repeat;
 
   @media screen and (min-width: 1232px) {
-    padding: 130px 140px 190px;
+    padding: 130px 0 190px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,10 +34,14 @@ export const AboutUsTopWrapper = styled.div`
 export const SectionTitle = styled.h2`
   margin-bottom: 20px;
 
-  font-size: 44px;
+  font-size: 34px;
   font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1232px) {
+    font-size: 44px;
+  }
 `;
 
 export const BenefitsList = styled.ul`

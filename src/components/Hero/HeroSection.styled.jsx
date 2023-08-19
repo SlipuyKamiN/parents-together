@@ -5,7 +5,6 @@ import heroBgImagePathRetina from 'images/hero-background@2x.png';
 
 export const Section = styled.section`
   height: 1057px;
-  padding: 5px;
 
   background-color: ${colors.primaryWhite};
   background-image: linear-gradient(
@@ -30,7 +29,7 @@ export const Section = styled.section`
       url(${heroBgImagePathRetina});
   }
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     background-image: url(${heroBgImagePath});
     background-position: 0 280px;
     background-size: contain;
@@ -59,7 +58,7 @@ export const HeroTitle = styled.h1`
   font-size: 33px;
   font-weight: 600;
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     font-size: 70px;
     flex-shrink: 0;
   }
@@ -75,7 +74,7 @@ export const HeroDescription = styled.p`
     max-width: 505px;
   }
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     font-size: 28px;
   }
 `;
@@ -132,7 +131,7 @@ export const HeroDownLink = styled.a`
     background-color: ${colors.hoverGray};
   }
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     margin: 380px auto 0;
   }
 `;

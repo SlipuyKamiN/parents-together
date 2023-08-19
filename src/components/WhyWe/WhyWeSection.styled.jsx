@@ -3,7 +3,7 @@ import { colors } from 'styles/common/vars';
 
 export const Section = styled.section`
   padding: 5px;
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     padding: 34px 0 32px;
   }
 `;
@@ -30,6 +30,10 @@ export const AdvantageItem = styled.li`
 
   &:not(:last-of-type) {
     margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex-wrap: nowrap;
   }
 `;
 

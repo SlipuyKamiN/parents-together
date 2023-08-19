@@ -9,7 +9,7 @@ export const PageHeader = styled.header`
 
   overflow: hidden;
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     height: 123px;
     padding: 22px 0;
 
@@ -21,7 +21,7 @@ export const PageHeader = styled.header`
   &.is-open {
     height: 223px;
 
-    @media screen and (min-width: 1232px) {
+    @media screen and (min-width: 1280px) {
       height: 123px;
     }
   }
@@ -44,7 +44,7 @@ export const DropMenuButton = styled.button`
   background-color: ${colors.accentPurple};
   transition: background-color ${transition.duration};
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     display: none;
   }
 
@@ -96,7 +96,7 @@ export const HeaderAnchorLink = styled.a`
     background-color: ${colors.hoverGray};
   }
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     margin: 0;
   }
 `;
