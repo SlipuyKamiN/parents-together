@@ -9,6 +9,8 @@ export const colors = {
   hoverGray: '#D5D1EA',
   accentPurple: '#ACA0FC',
   backgroundPurple: '#E0DCFE',
+  inputBg: '#F7F6FC',
+  inputFocusedBg: '#E3E2E8',
 };
 
 export const transition = {
