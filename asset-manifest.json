@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/parents-together/static/css/main.7db27abb.css",
-    "main.js": "/parents-together/static/js/main.0be49368.js",
+    "main.js": "/parents-together/static/js/main.2caa2590.js",
     "static/media/hero-background@2x.png": "/parents-together/static/media/hero-background@2x.8e76a451fc5a7c7c8717.png",
+    "static/media/testimonials-background-image@2x.png": "/parents-together/static/media/testimonials-background-image@2x.d3896491011be1b25400.png",
     "static/media/hero-background.png": "/parents-together/static/media/hero-background.0070456b80e04e63c9e3.png",
+    "static/media/testimonials-background-image.png": "/parents-together/static/media/testimonials-background-image.b55a63bbe02c0922fdb2.png",
+    "static/media/testimonials-background.png": "/parents-together/static/media/testimonials-background.53167e971d466d4ac6e3.png",
     "static/media/parents-rounded-1.png": "/parents-together/static/media/parents-rounded-1.b5c4bd2adb306eb689ef.png",
     "static/media/parents-rounded-2.png": "/parents-together/static/media/parents-rounded-2.144853240c9eb3d90f8d.png",
     "static/media/about-us-background.png": "/parents-together/static/media/about-us-background.02f07ec5fe87e440215c.png",
     "index.html": "/parents-together/index.html",
     "main.7db27abb.css.map": "/parents-together/static/css/main.7db27abb.css.map",
-    "main.0be49368.js.map": "/parents-together/static/js/main.0be49368.js.map"
+    "main.2caa2590.js.map": "/parents-together/static/js/main.2caa2590.js.map"
   },
   "entrypoints": [
     "static/css/main.7db27abb.css",
-    "static/js/main.0be49368.js"
+    "static/js/main.2caa2590.js"
   ]
 }
