@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { FaArrowDown } from 'react-icons/fa';
+import { HiOutlineArrowDown } from 'react-icons/hi';
 import { colors, transition } from 'styles/common/vars';
 
 export const PageHeader = styled.header`
@@ -101,7 +101,7 @@ export const HeaderAnchorLink = styled.a`
   }
 `;
 
-export const ArrowIcon = styled(FaArrowDown)`
+export const ArrowIcon = styled(HiOutlineArrowDown)`
   flex-shrink: 0;
   width: 37px;
   height: 37px;

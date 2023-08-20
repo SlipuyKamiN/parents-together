@@ -44,7 +44,10 @@ const AboutUsSection = () => {
       <Container>
         <AboutUsTopWrapper>
           <div>
-            <SectionTitle>Що таке "Батьки разом"?</SectionTitle>
+            <SectionTitle>
+              Що таке <br />
+              "Батьки разом"?
+            </SectionTitle>
             <p>
               "Батьки разом" - це ідея об'єднатися разом для того, щоб
               підтримати один одного у процесі підготовки дітей до початкової

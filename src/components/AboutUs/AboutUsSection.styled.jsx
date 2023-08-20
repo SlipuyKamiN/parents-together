@@ -10,7 +10,7 @@ export const Section = styled.section`
   background-position: center;
   background-repeat: no-repeat;
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     padding: 130px 0 190px;
     background-size: contain;
     background-position: center;
@@ -39,7 +39,7 @@ export const SectionTitle = styled.h2`
   line-height: 1.2;
   text-transform: uppercase;
 
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1280px) {
     font-size: 44px;
   }
 `;

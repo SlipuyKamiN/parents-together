@@ -40,6 +40,8 @@ export const FeedbackList = styled.ul`
 `;
 
 export const FeedbackItem = styled(BenefitItem)`
+  display: flex;
+  align-items: center;
   min-height: 380px;
 `;
 

@@ -3,6 +3,8 @@ import { Button } from 'components/Testimonials/SwiperButton.styled';
 import { colors, transition } from 'styles/common/vars';
 
 export const FooterSection = styled.footer`
+  padding: 83px 0 74px;
+
   background-color: ${colors.inputBg};
 
   border-top-right-radius: 60px;
@@ -19,7 +21,7 @@ export const FooterBlock = styled.div`
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
 
   :not(:last-child) {
     border-bottom: 1px solid ${colors.footerBlockBorder};
@@ -72,6 +74,8 @@ export const SubscribeInput = styled.input`
 
   padding: 25px;
 
+  line-height: 22px;
+
   border: 1px solid ${colors.primaryBlack};
   border-radius: 50px;
 
@@ -79,6 +83,7 @@ export const SubscribeInput = styled.input`
 `;
 
 export const SubmitButton = styled(Button)`
+  color: ${colors.primaryBlack};
   background-color: ${colors.backgroundPurple};
 
   &:hover,
@@ -93,10 +98,17 @@ export const FooterLogo = styled.span`
   text-align: center;
 `;
 
-export const MotivationDescription = styled.p`
+export const UpperDescription = styled.p`
+  display: block;
+  margin: 0 auto;
+
   max-width: 305px;
   font-size: 14px;
   text-align: center;
+`;
+
+export const LowerDescription = styled(UpperDescription)`
+  max-width: 209px;
 `;
 
 // 3

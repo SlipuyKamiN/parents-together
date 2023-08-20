@@ -6,16 +6,16 @@ import {
   FooterInnerWrapper,
   FooterLogo,
   FooterSection,
+  LowerDescription,
   MapList,
-  MotivationDescription,
   SocialItem,
   SocialLink,
   SocialsList,
   SubmitButton,
   SubscribeForm,
   SubscribeInput,
+  UpperDescription,
 } from './Footer.styled';
-import { FaArrowRight } from 'react-icons/fa';
 import {
   BiLogoFacebook,
   BiLogoLinkedin,
@@ -23,6 +23,7 @@ import {
   BiLogoTelegram,
 } from 'react-icons/bi';
 import PageLogo from 'components/Global/PageLogo';
+import { HiOutlineArrowRight } from 'react-icons/hi';
 
 const Footer = () => {
   return (
@@ -55,21 +56,21 @@ const Footer = () => {
                   placeholder="andrijkivbogdana@gmail.com"
                 />
                 <SubmitButton type="submit">
-                  <FaArrowRight size={25} />
+                  <HiOutlineArrowRight size={25} />
                 </SubmitButton>
               </SubscribeForm>
             </div>
           </FooterBlock>
           <FooterBlock>
-            <MotivationDescription>
+            <UpperDescription>
               батьки разом - сучасна колоборативні мережа батьків
-            </MotivationDescription>
+            </UpperDescription>
             <FooterLogo>
               <PageLogo />
             </FooterLogo>
-            <MotivationDescription>
+            <LowerDescription>
               створімо спільні ініціативи для наших дітей!
-            </MotivationDescription>
+            </LowerDescription>
           </FooterBlock>
           <FooterBlock>
             <address id="address">

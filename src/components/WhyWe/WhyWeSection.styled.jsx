@@ -4,7 +4,7 @@ import { colors } from 'styles/common/vars';
 export const Section = styled.section`
   padding: 5px;
   @media screen and (min-width: 1280px) {
-    padding: 34px 0 32px;
+    padding: 34px 0 22px;
   }
 `;
 

@@ -19,8 +19,8 @@ import authorAvatar6 from 'images/author-6.png';
 import FeedbackStars from './FeedbackStars';
 import { Container } from 'components/Global/Container.styled';
 import SwiperButton from './SwiperButton';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { useState } from 'react';
+import { HiOutlineArrowLeft, HiOutlineArrowRight } from 'react-icons/hi';
 
 const feedbackData = [
   {
@@ -93,16 +93,18 @@ const Testimonials = () => {
           {feedbackToRender.map(
             ({ avatarPath, author, assessment, comment }) => (
               <FeedbackItem key={author}>
-                <AuthorDataWrapper>
-                  <img src={avatarPath} alt={author} width={63} height={63} />
-                  <div>
-                    <h3>{author}</h3>
-                    <FeedbackStarsList>
-                      <FeedbackStars quantity={assessment} />
-                    </FeedbackStarsList>
-                  </div>
-                </AuthorDataWrapper>
-                <FeedbackComment>"{comment}"</FeedbackComment>
+                <div>
+                  <AuthorDataWrapper>
+                    <img src={avatarPath} alt={author} width={63} height={63} />
+                    <div>
+                      <h3>{author}</h3>
+                      <FeedbackStarsList>
+                        <FeedbackStars quantity={assessment} />
+                      </FeedbackStarsList>
+                    </div>
+                  </AuthorDataWrapper>
+                  <FeedbackComment>"{comment}"</FeedbackComment>
+                </div>
               </FeedbackItem>
             )
           )}
@@ -115,7 +117,7 @@ const Testimonials = () => {
                 handleSwipe(false);
               }}
             >
-              <FaArrowLeft size={25} />
+              <HiOutlineArrowLeft size={25} />
             </SwiperButton>
           </li>
           <li>
@@ -125,7 +127,7 @@ const Testimonials = () => {
                 handleSwipe();
               }}
             >
-              <FaArrowRight size={25} />
+              <HiOutlineArrowRight size={25} />
             </SwiperButton>
           </li>
         </SwiperButtonsList>

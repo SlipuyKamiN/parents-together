@@ -4,6 +4,7 @@ import heroBgImagePath from 'images/hero-background.png';
 import heroBgImagePathRetina from 'images/hero-background@2x.png';
 
 export const Section = styled.section`
+  padding-top: 55px;
   height: 1057px;
 
   background-color: ${colors.primaryWhite};
@@ -57,6 +58,7 @@ export const HeroTitle = styled.h1`
   text-transform: uppercase;
   font-size: 33px;
   font-weight: 600;
+  line-height: 1.1;
 
   @media screen and (min-width: 1280px) {
     font-size: 70px;
@@ -83,6 +85,7 @@ export const HeroBottomWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 `;
 
 export const ParentsInfoWrapper = styled.div`

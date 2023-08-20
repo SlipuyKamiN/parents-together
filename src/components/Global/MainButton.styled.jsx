@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import { FaArrowRight } from 'react-icons/fa';
 import { colors } from 'styles/common/vars';
 
 export const Button = styled.button`
@@ -38,7 +37,11 @@ export const ButtonTextWrapper = styled.span`
   border-radius: 36px;
 `;
 
-export const ArrowIcon = styled(FaArrowRight)`
+export const ArrowIcon = styled.span`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 72px;
   height: 72px;
 

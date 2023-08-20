@@ -54,6 +54,8 @@ export const InputWrapper = styled.div`
   label {
     display: block;
     margin-bottom: 8px;
+
+    color: ${colors.labelGray};
   }
 
   input {
@@ -64,8 +66,14 @@ export const InputWrapper = styled.div`
     border: none;
     background-color: ${colors.inputBg};
 
+    line-height: 22px;
+
     &:focus {
       background-color: ${colors.inputFocusedBg};
+    }
+
+    &::placeholder {
+      color: ${colors.descriptionGray};
     }
   }
 `;
