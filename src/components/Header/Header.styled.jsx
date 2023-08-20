@@ -9,21 +9,22 @@ export const PageHeader = styled.header`
 
   overflow: hidden;
 
+  &.is-open {
+    height: 223px;
+  }
+
   @media screen and (min-width: 1280px) {
-    height: 123px;
     padding: 22px 0;
 
+    height: 123px;
+  }
+`;
+
+export const HeaderInnerWrapper = styled.div`
+  @media screen and (min-width: 1280px) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  &.is-open {
-    height: 223px;
-
-    @media screen and (min-width: 1280px) {
-      height: 123px;
-    }
   }
 `;
 

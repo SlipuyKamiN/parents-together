@@ -1,10 +1,10 @@
 const PageLogo = () => {
   return (
-    <a href="/">
+    <a href="/" style={{ height: '50px' }}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="165"
-        height="51"
+        height="50"
         viewBox="0 0 165 51"
         fill="none"
       >

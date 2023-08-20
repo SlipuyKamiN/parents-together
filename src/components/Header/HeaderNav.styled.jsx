@@ -11,7 +11,7 @@ export const HeaderNavList = styled.ul`
 
 export const NavLink = styled.a`
   display: block;
-  padding: 20px 0;
+  padding: 28px 0;
 
   font-size: 16px;
 

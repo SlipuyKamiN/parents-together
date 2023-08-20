@@ -3,6 +3,7 @@ import {
   ArrowIcon,
   DropMenuButton,
   HeaderAnchorLink,
+  HeaderInnerWrapper,
   LogoWrapper,
   PageHeader,
 } from './Header.styled';
@@ -19,21 +20,23 @@ const Header = () => {
   };
 
   return (
-    <Container>
-      <PageHeader className={isMenuOpen ? 'is-open' : ''}>
-        <LogoWrapper>
-          <PageLogo />
-          <DropMenuButton type="button" onClick={toggleMenu}>
-            <GiHamburgerMenu size={24} />
-          </DropMenuButton>
-        </LogoWrapper>
-        <HeaderNav />
-        <HeaderAnchorLink href="#address">
-          <span>Зв'язатись з нами</span>
-          <ArrowIcon />
-        </HeaderAnchorLink>
-      </PageHeader>
-    </Container>
+    <PageHeader className={isMenuOpen ? 'is-open' : ''}>
+      <Container>
+        <HeaderInnerWrapper>
+          <LogoWrapper>
+            <PageLogo />
+            <DropMenuButton type="button" onClick={toggleMenu}>
+              <GiHamburgerMenu size={24} />
+            </DropMenuButton>
+          </LogoWrapper>
+          <HeaderNav />
+          <HeaderAnchorLink href="#address">
+            <span>Зв'язатись з нами</span>
+            <ArrowIcon />
+          </HeaderAnchorLink>
+        </HeaderInnerWrapper>
+      </Container>
+    </PageHeader>
   );
 };
 
