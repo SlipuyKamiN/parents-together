@@ -70,6 +70,7 @@ export const HeroDescription = styled.p`
   font-size: 22px;
   font-weight: 300;
   line-height: 1.1;
+  margin-bottom: 4px;
 
   &,
   & + p {
