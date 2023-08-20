@@ -84,6 +84,6 @@ export const ErrMessage = styled.span`
 
   max-width: 150%;
   font-size: 14px;
-  line-height: 00.8;
+  line-height: 1.1;
   color: red;
 `;
