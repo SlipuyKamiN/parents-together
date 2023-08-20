@@ -80,7 +80,7 @@ const Testimonials = () => {
   const feedbackToRender = feedbackData.slice(firstFeedBack, firstFeedBack + 3);
 
   return (
-    <Section>
+    <Section id="testimonials">
       <Container>
         <SectionTextWrapper>
           <SectionTitle>Слова наших користувачів</SectionTitle>

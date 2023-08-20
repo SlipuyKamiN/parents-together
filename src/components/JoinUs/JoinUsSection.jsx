@@ -46,7 +46,7 @@ const JoinUsSection = () => {
     reset({ name: '', number: '' });
   };
   return (
-    <Section>
+    <Section id="join-us">
       <Container>
         <SectionText>
           <SectionTitle>Приєднуйтесь до "Батьки разом" сьогодні!</SectionTitle>

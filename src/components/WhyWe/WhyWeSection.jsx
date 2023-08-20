@@ -35,7 +35,7 @@ const advantagesData = [
 
 const WhyWeSection = () => {
   return (
-    <Section>
+    <Section id="why-we">
       <Container>
         <SectionTitle>Чому ми?</SectionTitle>
         <SectionDescription>

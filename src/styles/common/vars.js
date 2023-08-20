@@ -11,6 +11,7 @@ export const colors = {
   backgroundPurple: '#E0DCFE',
   inputBg: '#F7F6FC',
   inputFocusedBg: '#E3E2E8',
+  footerBlockBorder: '#E2E6EF',
 };
 
 export const transition = {

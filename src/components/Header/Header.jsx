@@ -31,13 +31,13 @@ const Header = () => {
         <nav>
           <HeaderNavList>
             <li>
-              <NavLink href="/">Про нас</NavLink>
+              <NavLink href="#about-us">Про нас</NavLink>
             </li>
             <li>
-              <NavLink href="/">Як це працює</NavLink>
+              <NavLink href="#why-we">Як це працює</NavLink>
             </li>
             <li>
-              <NavLink href="/">Користувачам</NavLink>
+              <NavLink href="#join-us">Користувачам</NavLink>
             </li>
           </HeaderNavList>
         </nav>
