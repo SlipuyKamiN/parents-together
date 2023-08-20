@@ -54,28 +54,6 @@ export const DropMenuButton = styled.button`
   }
 `;
 
-export const HeaderNavList = styled.ul`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  gap: 40px;
-`;
-
-export const NavLink = styled.a`
-  display: block;
-  padding: 20px 0;
-
-  font-size: 16px;
-
-  transition: color ${transition.duration};
-
-  &:hover,
-  &:focus {
-    color: ${colors.accentPurple};
-  }
-`;
-
 export const HeaderAnchorLink = styled.a`
   display: flex;
   align-items: center;
